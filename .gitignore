@@ -1,0 +1,66 @@
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+tmp/
+temp/
+cache/
+
+# Server specific
+cgi-bin/
+etc/
+mail/
+public_ftp/
+ssl/
+
+# Build and dependency directories
+node_modules/
+dist/
+build/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Local development files
+*.env
+*.env.local
+config.local.php
+
+# Cache and compiled files
+*.sass-cache/
+*.css.map
+*.js.map
+
+# Specific to this project
+analog/
+awstats/
+webalizer/
+webalizerftp/
+
+# Sensitive information
+ssl/certs/
+ssl/keys/
+ssl/csrs/
+
+# Email and server configs
+dovecot-*
+mailbox_format.cpanel
+maildirsize
+subscriptions
+
+# Temporary website files
+*.swp
+*.swo
+.htaccess.bak
